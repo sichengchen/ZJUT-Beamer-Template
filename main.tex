@@ -1,0 +1,75 @@
+\documentclass{beamer}
+\usetheme{Madrid}
+\usecolortheme{default}
+
+\title[About Beamer]
+{ZJUT {\LaTeX} Beamer Template}
+
+\subtitle{Template for ZJUT}
+
+\author[Smith, Yamada] % (optional, for multiple authors)
+{David~D.~Chan\inst{1} \and San~Zhang\inst{2}}
+
+\institute[ZJUT] % (optional)
+{
+  \inst{1}%
+  College of Computer Science and Technology\\
+  Zhejiang University of Technology
+  \and
+  \inst{2}%
+  College of Chemical Engineering\\
+  Zhejiang University of Technology
+}
+
+\date[ZJUT 2023] % (optional)
+{ZJUT Template, March 2023}
+
+\logo{\includegraphics[height=1.2cm]{logo_zjut}}
+
+\definecolor{zjutblue}{RGB}{1,85,174}
+\definecolor{zjutlightblue}{RGB}{101,173,221}
+\setbeamercolor{titlelike}{bg=zjutblue}
+\setbeamercolor{author in head/foot}{bg=zjutblue}
+\setbeamercolor{title in head/foot}{bg=zjutblue}
+\setbeamercolor{date in head/foot}{bg=zjutblue}
+\setbeamerfont{title}{series=\bfseries}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\begin{frame}
+\frametitle{Table of Contents}
+\tableofcontents
+\end{frame}
+
+\section{First section}
+
+\begin{frame}
+\frametitle{Sample frame title}
+This is some text in the first frame. This is some text in the first frame. This is some text in the first frame.
+\end{frame}
+
+\section{Second section}
+
+\begin{frame}
+\frametitle{Highlighting text}
+
+In this slide, some important text will be
+\alert{highlighted} because it's important.
+Please, don't abuse it.
+
+\begin{block}{Remark}
+Sample text
+\end{block}
+
+\begin{alertblock}{Important theorem}
+Sample text in red box
+\end{alertblock}
+
+\begin{examples}
+Sample text in green box. The title of the block is ``Examples".
+\end{examples}
+\end{frame}
+
+\end{document}
