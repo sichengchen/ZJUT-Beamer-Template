@@ -1,3 +1,3 @@
-# ZJUT-Beamer-Theme
-浙江工业大学Beamer模板（自用）
+# ZJUT-Beamer-Template
+浙江工业大学 Beamer 模板
 Version: 2.0
